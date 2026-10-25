@@ -1159,7 +1159,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://yc.dlweituo.com:21114".to_owned()
+    "https://yc.dlweituo.com".to_owned()
 }
 
 #[inline]
